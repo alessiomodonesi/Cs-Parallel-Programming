@@ -1,0 +1,15 @@
+/Users/alessiomodonesi/podcast/bin/Debug/net7.0/podcast
+/Users/alessiomodonesi/podcast/bin/Debug/net7.0/podcast.deps.json
+/Users/alessiomodonesi/podcast/bin/Debug/net7.0/podcast.runtimeconfig.json
+/Users/alessiomodonesi/podcast/bin/Debug/net7.0/podcast.dll
+/Users/alessiomodonesi/podcast/bin/Debug/net7.0/podcast.pdb
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.csproj.AssemblyReference.cache
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.AssemblyInfoInputs.cache
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.AssemblyInfo.cs
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.csproj.CoreCompileInputs.cache
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.dll
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/refint/podcast.dll
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.pdb
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/podcast.genruntimeconfig.cache
+/Users/alessiomodonesi/podcast/obj/Debug/net7.0/ref/podcast.dll
