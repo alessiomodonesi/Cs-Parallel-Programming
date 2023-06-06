@@ -7,7 +7,7 @@
 
 Benvenuti in un nuovo episodio di "Coding Conversations", il podcast in cui esploriamo i temi più interessanti del mondo della programmazione.
 Oggi parleremo di un argomento molto affascinante: la programmazione parallela in C#.
-Mi presento: sono Alessio Modonesi, uno studente della classe 5F dell'ITIS Viola Marchesini di Rovigo, in Veneto.
+Mi presento: sono Alessio Modonesi, uno studente della classe 5F dell'ITIS Viola Marchesini di Rovigo.
 
 La programmazione parallela è un'area di grande importanza nel campo dello sviluppo del software. In un mondo in cui i processori hanno sempre più core e le applicazioni richiedono prestazioni sempre migliori, la capacità di sfruttare al massimo il potenziale di parallelismo dei moderni sistemi è diventata fondamentale. Fortunatamente, C# offre un ampio supporto da questo punto di vista, consentendo agli sviluppatori di scrivere applicazioni più veloci ed efficienti.
 
