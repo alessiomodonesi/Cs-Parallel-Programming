@@ -1,8 +1,3 @@
-# C# Parallel Programming
-
-1. Clicca sul collegamento [vai al podcast](./podcast.mp3) per aprire il file nella repository.
-2. Nella pagina del file, fai clic sul pulsante "Download" o sull'opzione "Raw" per scaricare il file sul tuo dispositivo.
-
 ## Introduzione
 
 Benvenuti in un nuovo episodio di "Coding Conversations", il podcast in cui esploriamo i temi più interessanti del mondo della programmazione.
