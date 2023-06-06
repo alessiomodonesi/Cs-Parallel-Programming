@@ -1,38 +1,28 @@
-﻿// Alessio Modonesi 5F
-using System;
-using System.Threading.Tasks;
+﻿// Create an array of numbers
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-class Program
+// Parallelize the processing of the numbers using Parallel.For
+Parallel.For(0, numbers.Length, i =>
 {
-    static void Main()
+    // Perform some computation on each number
+    int result = ComputeSquare(numbers[i]);
+
+    // Display the result with a thread-safe output
+    lock (Console.Out)
     {
-        // Create an array of numbers
-        int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-        // Parallelize the processing of the numbers using Parallel.For
-        Parallel.For(0, numbers.Length, i =>
-        {
-            // Perform some computation on each number
-            int result = ComputeSquare(numbers[i]);
-
-            // Display the result with a thread-safe output
-            lock (Console.Out)
-            {
-                Console.WriteLine("Computed square of {0} = {1}", numbers[i], result);
-            }
-        });
-
-        Console.ReadLine();
+        Console.WriteLine("Computed square of {0} = {1}", numbers[i], result);
     }
+});
 
-    static int ComputeSquare(int number)
-    {
-        // Simulate some time-consuming computation
-        Task.Delay(1000).Wait();
+Console.ReadLine();
 
-        // Compute the square of the number
-        int square = number * number;
+static int ComputeSquare(int number)
+{
+    // Simulate some time-consuming computation
+    Task.Delay(1000).Wait();
 
-        return square;
-    }
+    // Compute the square of the number
+    int square = number * number;
+
+    return square;
 }
