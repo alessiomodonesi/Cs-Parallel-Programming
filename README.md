@@ -55,3 +55,34 @@ Infine, come ultimo esempio, troviamo l'applicazione nei sistemi di calcolo ad a
 Concludendo, in questo episodio di "Coding Conversations" abbiamo esplorato la programmazione parallela in C#. Abbiamo visto come il parallelismo può migliorare le prestazioni delle applicazioni e come C# fornisce un set di strumenti potenti per sfruttarlo appieno.
 
 Grazie per essere stati con noi in questo episodio. Continuate a esplorare il vasto mondo della programmazione e non dimenticate di seguirci per i prossimi entusiasmanti argomenti. Alla prossima!
+
+``` C#
+// Create an array of numbers
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+// Parallelize the processing of the numbers using Parallel.For
+Parallel.For(0, numbers.Length, i =>
+{
+    // Perform some computation on each number
+    int result = ComputeSquare(numbers[i]);
+
+    // Display the result with a thread-safe output
+    lock (Console.Out)
+    {
+        Console.WriteLine("Computed square of {0} = {1}", numbers[i], result);
+    }
+});
+
+Console.ReadLine();
+
+static int ComputeSquare(int number)
+{
+    // Simulate some time-consuming computation
+    Task.Delay(1000).Wait();
+
+    // Compute the square of the number
+    int square = number * number;
+
+    return square;
+}
+```
