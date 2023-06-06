@@ -1,5 +1,7 @@
 # C# Parallel Programming
 
+[Scarica il podcast](./podcast.mp3)
+
 La programmazione parallela in C# è un approccio che consente di sfruttare al massimo le risorse del sistema, eseguendo operazioni simultanee su più thread o processi. C# fornisce diverse opzioni per la programmazione parallela, che includono il supporto nativo per i thread, la programmazione asincrona e la libreria Parallel Extensions.
 
 I thread sono una delle opzioni di base per la programmazione parallela in C#. Un thread rappresenta un'unità di esecuzione indipendente all'interno di un processo. È possibile creare e gestire i thread utilizzando la classe Thread fornita dal framework .NET. I thread possono essere utilizzati per eseguire operazioni in modo concorrente, consentendo di migliorare le prestazioni in determinati scenari. Tuttavia, la gestione esplicita dei thread può essere complessa e soggetta a problemi come condizioni di gara (race conditions) e deadlock.
